@@ -1,4 +1,7 @@
 # deep-learning-challenge_reja
+Module 21 Challenge
+
+## Challenge Overview ##
 
 In this comprehensive analysis, my goal is to empower the nonprofit foundation, Alphabet Soup, with a sophisticated tool to refine its grant allocation procedures. Drawing upon my learnings in machine learning and neural networks from my course works, the central objective is to construct a binary classifier. This classifier will be designed using the various features present in the dataset provided.
 
