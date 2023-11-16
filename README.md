@@ -28,6 +28,7 @@ Ultimately, the overarching objective is to enable Alphabet Soup to select appli
 
 ## Compiling, Training, and Evaluating the Model  ##
 
-
+4. How many neurons, layers, and activation functions did you select for your neural network model, and why?
+   - For the neural network model, I opted for a configuration with 80 neurons in the first layer and 30 neurons in the second layer during the original analysis. This choice was influenced by the sample results provided in the starter file. The rationale behind selecting this architecture was to establish a balance between model complexity and performance.
 
 ## Summary  ##
