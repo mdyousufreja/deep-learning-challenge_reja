@@ -16,14 +16,14 @@ Ultimately, the overarching objective is to enable Alphabet Soup to select appli
 ## Preprocessing the Data  ##
 
 1. What variable(s) are the target(s) for your model?
-   The dependent variable we are aiming to predict is found in the 'IS_SUCCESSFUL' column within the application_df dataset. 
+   - The dependent variable we are aiming to predict is found in the 'IS_SUCCESSFUL' column within the application_df dataset. 
 
 2. What variable(s) are the features for your model?
-The feature variables encompass the entirety of columns within the application_df, with the exception of "NAME" and "EIN," which were specifically excluded during the initial preprocessing steps. It's crucial to highlight that the column "IS_SUCCESSFUL" is intentionally omitted from the feature variables, as it functions as the target variable in our analysis rather than a predictor. This ensures that our model is trained to predict the outcome based on the other relevant features present in the dataset.
+   - The feature variables encompass the entirety of columns within the application_df, with the exception of "NAME" and "EIN," which were specifically excluded during the initial preprocessing steps. It's crucial to highlight that the column "IS_SUCCESSFUL" is intentionally omitted from the feature variables, as it functions as the target variable in our analysis rather than a predictor. This ensures that our model is trained to predict the outcome based on the other relevant features present in the dataset.
 
 3. What variable(s) should be removed from the input data because they are neither targets nor features?
 
-The variables "NAME" and "EIN" should be removed from the input data as they neither serve as target variables nor contribute as feature variables. The rationale behind their exclusion lies in the fact that these columns do not represent the target variable. It's crucial to emphasize that the 'IS_SUCCESSFUL' column is not considered part of the feature variables, as its role is designated as the target variable for prediction.
+   - The variables "NAME" and "EIN" should be removed from the input data as they neither serve as target variables nor contribute as feature variables. The rationale behind their exclusion lies in the fact that these columns do not represent the target variable. It's crucial to emphasize that the 'IS_SUCCESSFUL' column is not considered part of the feature variables, as its role is designated as the target variable for prediction.
 
 
 ## Compiling, Training, and Evaluating the Model  ##
