@@ -34,6 +34,9 @@ Ultimately, the overarching objective is to enable Alphabet Soup to select appli
 5. Were you able to achieve the target model performance?
    - By leveraging these configurations, the model achieved an accuracy of 72.4%. This approach was considered appropriate as it struck a practical balance in capturing the underlying patterns in the data without overfitting or introducing unnecessary complexity.
      
-6. What steps did you take in your attempts to increase model performance? 
+6. What steps did you take in your attempts to increase model performance?
+   - In my efforts to enhance model performance, I implemented various strategies. For the additional analysis, I introduced a third and fourth hidden layer to the neural network. In these layers, I reduced the number of neurons compared to the original analysis. Despite these adjustments, the model did not surpass the 75% accuracy threshold. Notably, all additional attempts yielded a little over accuracy than the initial trial. 
 
 ## Summary  ##
+
+The model achieved an overall accuracy of approximately 72.4% in predicting the classification problem. To potentially enhance this performance, further upfront data cleanup could be beneficial. A more thorough and targeted data preprocessing stage may address potential outliers, missing values, or other data irregularities that could impact the model's ability to generalize effectively. This iterative approach to data cleaning could contribute to improved model accuracy by ensuring a more robust and representative dataset for training and evaluation.
